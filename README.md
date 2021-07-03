@@ -14,7 +14,7 @@ Start to End Walk-through of Procedure to set up BCI Epoch Plus to connect to Un
 (Note: EmotivPro has license for Raw EEG signals))
 4. Save the client secret and client id generated in a note
 5. 
-Open Config.cs file 
+Open Config.cs file and insert the saved client secret and client id (step 4) as the elements in the corresponding labels.
 
 In https://www.websocket.org/echo.html, input wss://localhost:6868 to the location field; 
 (Communicate with the Cortex API using the WebSocket Secure protocol. according to instructions stated in https://emotiv.gitbook.io/cortex-api/connecting-to-the-cortex-api)
