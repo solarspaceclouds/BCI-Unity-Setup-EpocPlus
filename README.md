@@ -1,5 +1,5 @@
 # BCI-Unity-Setup-EpochPlus
-Start to End Walk-through of Procedure to set up BCI Epoch Plus to connect to Unity interface
+Start to End Walk-through of Procedure to set up BCI Epoch Plus to connect to Unity interface. Steps listed are in sequential order.
 
 # Preparation of BCI headset 
 1. Make sure Epoch+ headset is charged. 
@@ -13,9 +13,11 @@ Start to End Walk-through of Procedure to set up BCI Epoch Plus to connect to Un
 3. Create new cortex app (leave the 'My App requires EEG access' box unchecked if you don't have a license for Raw EEG signals(e.g. EmotivBCI) 
 (Note: EmotivPro has license for Raw EEG signals))
 4. Save the client secret and client id generated in a note
-5. 
+
+# Additional Requirement
 Open Config.cs file and insert the saved client secret and client id (step 4) as the elements in the corresponding labels.
 
+# WebSocket
 In https://www.websocket.org/echo.html, input wss://localhost:6868 to the location field; 
 (Communicate with the Cortex API using the WebSocket Secure protocol. according to instructions stated in https://emotiv.gitbook.io/cortex-api/connecting-to-the-cortex-api)
 Follow instructions stated in https://emotiv.gitbook.io/cortex-api/overview-of-api-flow 
@@ -23,4 +25,5 @@ Follow instructions stated in https://emotiv.gitbook.io/cortex-api/overview-of-a
 
 
 # Connection to Unity
+1. download Emotiv-Unity Plugin from https://github.com/Emotiv/unity-plugin 
 
