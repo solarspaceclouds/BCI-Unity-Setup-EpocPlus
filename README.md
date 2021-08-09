@@ -57,4 +57,4 @@ Follow instructions stated in https://emotiv.gitbook.io/cortex-api/overview-of-a
 - If encountered error: 'please call authorize() API with a debit number' after calling authorize API, 
 - Solution: retry calling authorize API (with ' "debit": 1 ' param after the "clientid" and "clientSecret") (need a number, can be >1)
 
-Personal project reference: https://github.com/solarspaceclouds/PacGhost_v1 
+Personal project reference: https://github.com/solarspaceclouds/Emotiv-BCI-Game-PacGhost
