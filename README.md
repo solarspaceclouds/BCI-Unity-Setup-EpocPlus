@@ -21,6 +21,7 @@ Start to End Walk-through of Procedure to set up BCI Epoch Plus to connect to Un
 
 # Download Unity Package from: 
 https://github.com/BrandlMax/BrainFramework 
+
 Steps: 
 1. Navigate to your unity project's packages folder in command prompt.
 2. Type: git clone https://github.com/BrandlMax/BrainFramework 
