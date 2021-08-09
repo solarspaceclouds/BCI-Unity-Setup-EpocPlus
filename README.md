@@ -1,4 +1,4 @@
-# BCI-Unity-Setup-EpochPlus
+# BCI-Unity-Setup-EpocPlus
 Start to End Walk-through of Procedure to set up BCI Epoch Plus to connect to Unity interface. Steps listed are in sequential order.
 
 # Preparation of BCI headset 
