@@ -49,8 +49,7 @@ Open Config.cs file and insert the saved client secret and client id (step 4 of 
 4. Leave the sponges out to dry in the sun.
 
 # Additional Resources
-# WebSocket
-In https://www.websocket.org/echo.html, input wss://localhost:6868 to the location field; 
+Websocket: In https://www.websocket.org/echo.html, input wss://localhost:6868 to the location field; 
 (Communicate with the Cortex API using the WebSocket Secure protocol. according to instructions stated in https://emotiv.gitbook.io/cortex-api/connecting-to-the-cortex-api)
 Follow instructions stated in https://emotiv.gitbook.io/cortex-api/overview-of-api-flow 
 - In step 7: Call the **authorize** API to get a Cortex token for subsequence requests, save the Cortex Token generated in a note. 
