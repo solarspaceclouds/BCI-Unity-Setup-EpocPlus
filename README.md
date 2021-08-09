@@ -55,3 +55,5 @@ Follow instructions stated in https://emotiv.gitbook.io/cortex-api/overview-of-a
 - In step 7: Call the **authorize** API to get a Cortex token for subsequence requests, save the Cortex Token generated in a note. 
 - If encountered error: 'please call authorize() API with a debit number' after calling authorize API, 
 - Solution: retry calling authorize API (with ' "debit": 1 ' param after the "clientid" and "clientSecret") (need a number, can be >1)
+
+Personal project reference: https://github.com/solarspaceclouds/PacGhost_v1 
