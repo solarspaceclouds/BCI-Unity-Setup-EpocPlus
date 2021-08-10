@@ -19,6 +19,10 @@ Start to End Walk-through of Procedure to set up BCI Epoch Plus to connect to Un
 2. Connect BCI headset device. (click Connect button and select the device you wish to connect to)
 3. Start training motor sensory/facial expression commands.
 
+# Check contact quality and EEG quality in EmotivBCI or Emotiv App application
+![BCI_contact_quality](https://user-images.githubusercontent.com/65459827/128822449-95815f0e-466d-4d53-9a35-56084abb85b0.JPG)
+![BCI_eeg_quality](https://user-images.githubusercontent.com/65459827/128822417-cea1b6eb-1db9-4f60-8c6a-b4bae491e062.JPG)
+
 # Download Unity Package from: 
 https://github.com/BrandlMax/BrainFramework 
 
@@ -58,3 +62,5 @@ Follow instructions stated in https://emotiv.gitbook.io/cortex-api/overview-of-a
 - Solution: retry calling authorize API (with ' "debit": 1 ' param after the "clientid" and "clientSecret") (need a number, can be >1)
 
 Personal project reference: https://github.com/solarspaceclouds/Emotiv-BCI-Game-PacGhost
+
+
